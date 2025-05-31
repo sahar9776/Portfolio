@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+* {
+  /* padding-inline: 0;
+  margin-inline: 0; */
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden !important;
+}
+button {
+  cursor: pointer;
+}
+
+@layer base {
+  .bg-gradient {
+    background: #ffffff;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255) 60%,
+      rgba(255, 193, 2, 1) 60%
+    );
+  }
+  .bg-primary {
+    @apply bg-[#ffc102];
+  }
+  .text-primary {
+    @apply text-[#ffc102];
+  }
+  .border-primary {
+    @apply border-[#ffc102];
+  }
+  .circle-progressbar {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}
