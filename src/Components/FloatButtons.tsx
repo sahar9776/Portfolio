@@ -2,8 +2,7 @@ import { PiReadCvLogoFill } from "react-icons/pi";
 import { PiHeadsetFill } from "react-icons/pi";
 import Contact from "./Contact";
 import { useState } from "react";
-import { BiSolidHome } from "react-icons/bi";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 
 function FloatButtons() {
   const resumeURL = "http://localhost:5173/files/sahar-samadi.pdf";
