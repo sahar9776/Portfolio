@@ -31,7 +31,6 @@ function CircleProgressBar({ circleWidth, circleHeight }:CircleProgressBarProps)
             strokeDasharray: dashArray,
             strokeDashoffset: dashOffset,
           }}
-          // transform={`rotate(-90 ${circleWidth / 2} ${circleWidth / 2}`}
           className="fill-none stroke-[#ffc102] circle-progressbar"
         />
         <text
