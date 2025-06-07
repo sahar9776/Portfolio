@@ -24,7 +24,7 @@ export const projectList: TProjectItem[] = [
     id: 1,
     name: "beauty shop",
     url: "https://github.com/sahar9776/BEAUTY-SHOP",
-    imageUrl: "/public/images/beauty.jpg",
+    imageUrl: "/images/beauty.jpg",
     videoUrl: "/public/videos/beauty.mp4",
     SPALibrary: "React",
     CSSLibrary: "bootstrap",
