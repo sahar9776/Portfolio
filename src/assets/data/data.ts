@@ -25,11 +25,7 @@ export const projectList: TProjectItem[] = [
     name: "beauty shop",
     url: "https://github.com/sahar9776/BEAUTY-SHOP",
     imageUrl: "/images/beauty.jpg",
-<<<<<<< HEAD
     videoUrl: "/videos/beauty.mp4",
-=======
-    videoUrl: "/public/videos/beauty.mp4",
->>>>>>> 16d72747dcdf3270d946398ac261efd21721e58d
     SPALibrary: "React",
     CSSLibrary: "bootstrap",
   },
