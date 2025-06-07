@@ -12,7 +12,7 @@ function Resume() {
          ps-5 py-10 rounded-lg shadow-lg shadow-slate-500"
         >
           <img
-            src="/public/images/avatar.jpg"
+            src="/images/avatar.jpg"
             alt="developer"
             className="w-1/2 h-auto rounded-lg shadow text-center mx-auto mb-10 -mt-32"
           />

@@ -15,7 +15,7 @@ function Introduction() {
   return (
     <div className="max-w-screen w-full h-[750px] bg-black overflow-hidden relative">
       <img
-        src="../public/images/Introduction.jpg"
+        src="/images/Introduction.jpg"
         alt="IntroductionBg"
         className="w-full h-auto
        opacity-60"

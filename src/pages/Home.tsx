@@ -41,13 +41,13 @@ function Home() {
           />
           <>
             <motion.img
-              src="../../public/images/employmentTwo.jpg"
+              src="/images/employmentTwo.jpg"
               alt="site-idea-on-paper"
               className="max-w-[45%] h-auto rounded-tl-full rounded-bl-full absolute top-4 left-4"
               variants={childVariants}
             />
             <motion.img
-              src="../../public/images/employmentOne.jpg"
+              src="/images/employmentOne.jpg"
               alt="site-idea-on-paper"
               className="max-w-[45%] h-auto rounded-tr-full rounded-br-full absolute bottom-4 right-4"
               variants={childVariants}

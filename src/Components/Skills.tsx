@@ -23,7 +23,7 @@ function Skills() {
 
         <div className="w-full lg:w-[36%] h-auto hidden lg:flex relative">
           <img
-            src="/public/images/developer.png"
+            src="/images/developer.png"
             alt="developer"
             className="w-full h-auto"
           />
