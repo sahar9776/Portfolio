@@ -1,6 +1,5 @@
-import type { TProjectItem } from "../assets/types/types";
+import type {TProjectItem } from "../assets/types/types";
 import { CiMenuKebab } from "react-icons/ci";
-import { motion } from "framer-motion";
 import { useState } from "react";
 import ProjectSidebar from "./ProjectSidebar";
 
@@ -18,7 +17,7 @@ function ProjectItem(item: ProjectProps) {
     <>
       <ProjectSidebar
         openValue={isOpen}
-        handleSidebar={handleSidebar}
+        handleClose={handleSidebar}
         {...item}
       />
 
@@ -26,7 +25,7 @@ function ProjectItem(item: ProjectProps) {
         className="group w-48 lg:w-60 h-64 lg:h-[328px] rounded-lg bg-[#202020] shadow-lg 
       text-center p-2 relative"
       >
-        <motion.img
+        <img
           src={imageUrl}
           alt={name}
           className="w-full h-full rounded-lg shadow-white shadow-xl

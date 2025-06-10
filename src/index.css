@@ -34,4 +34,10 @@ button {
     stroke-linecap: round;
     stroke-linejoin: round;
   }
+  #header-bar{
+    display:none !important;
+  }
+  #pdf-controls{
+    display:none !important;
+  }
 }

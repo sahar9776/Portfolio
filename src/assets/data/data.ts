@@ -2,7 +2,6 @@ import type {
   TProjectItem,
   TSkillItem,
   TContactItem,
-  TEducationCourseItem,
   TNavbarItem,
 } from "../types/types";
 
@@ -25,143 +24,99 @@ export const projectList: TProjectItem[] = [
     name: "beauty shop",
     url: "https://github.com/sahar9776/BEAUTY-SHOP",
     imageUrl: "/images/beauty.jpg",
-    videoUrl: "/videos/beauty.mp4",
-    SPALibrary: "React",
-    CSSLibrary: "bootstrap",
+    libraries:"React, Bootstrap",
   },
   {
     id: 2,
     name: "car fans",
     url: "https://github.com/sahar9776/Car-Fans",
     imageUrl: "/images/car.jpg",
-    videoUrl: "/videos/car.mp4",
-    SPALibrary: "Next",
-    CSSLibrary: "tailwind",
+    libraries:"Next, Tailwind"
   },
   {
     id: 3,
     name: "different shop",
     url: "https://github.com/sahar9776/DIFFERENT-SHOP",
     imageUrl: "/images/different.jpg",
-    videoUrl: "/videos/different.mp4",
-    SPALibrary: "React",
-    CSSLibrary: "tailwind",
+    libraries:"React, Tailwind"
   },
   {
     id: 4,
     name: "netflix ",
     url: "https://github.com/sahar9776/Netflix",
     imageUrl: "/images/netflix.jpg",
-    videoUrl: "/videos/netflix.mp4",
+    libraries:"Tailwind"
   },
   {
     id: 5,
     name: "learn english",
     url: "https://github.com/sahar9776/LEARN-ENGLISH",
     imageUrl: "/images/learn-english.jpg",
-    videoUrl: "/videos/learn-english.mp4",
-    SPALibrary: "React",
-    CSSLibrary: "tailwind",
+    libraries:"React, Tailwind"
   },
   {
     id: 6,
     name: "coffee shop ",
     url: "https://github.com/sahar9776/Coffee-Shop",
     imageUrl: "/images/coffee.jpg",
-    videoUrl: "/videos/coffee.mp4",
-    SPALibrary: "Next",
-    CSSLibrary: "tailwind",
+    libraries:"Next, Tailwind"
   },
   {
     id: 7,
-    name: "tic tac toe",
-    videoUrl: "/videos/",
-    url: "",
-    imageUrl: "/images/tic-tac-toe.jpg",
+    name: "Portfolio",
+    url: "https://github.com/sahar9776/Portfolio",
+    imageUrl: "/images/sahar-samadi-resume-image.jpg",
+    libraries:"React, Tailwind"
   },
 ];
 
 export const mySkills: TSkillItem[] = [
   {
     id: 1,
-    name: "javaScript",
-    size: 80,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    name: "JavaScript",
+    experience: 36,
   },
   {
     id: 2,
-    name: "typeScript",
-    size: 85,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    name: "TypeScript",
+    experience: 6,
   },
   {
     id: 3,
-    name: "react",
-    size: 75,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    name: "React",
+    experience: 24,
   },
   {
     id: 4,
-    name: "next",
-    size: 80,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    name: "Next",
+    experience: 10,
   },
   {
     id: 5,
-    name: "tailwind css",
-    size: 75,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    name: "Tailwind css",
+    experience: 24,
   },
   {
     id: 6,
-    name: "bootstrap",
-    size: 70,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    name: "Bootstrap",
+    experience: 36,
   },
 ];
 
 export const contactList: TContactItem[] = [
   {
     id: 1,
-    info: "Kermanshah, Iran",
-    abbreviation: "A",
-  },
-  {
-    id: 2,
     info: "+989910733897",
     abbreviation: "T",
   },
   {
-    id: 3,
+    id: 2,
     info: "sahar.samadi1376@gmail.com",
     abbreviation: "E",
   },
   {
-    id: 4,
+    id: 3,
     info: "https://github.com/sahar9776",
     abbreviation: "G",
-  },
-];
-
-export const educationList: TEducationCourseItem[] = [
-  {
-    id: 1,
-    name: "JavaScript Mastery Course",
-    url: "http://www.neonlearn.ir/course/master-js-toturial",
-  },
-  {
-    id: 2,
-    name: "React and Typescript Course",
-    url: "https://frontcast.ir/product/react-ts/",
-  },
-  {
-    id: 3,
-    name: "Next.js – Comprehensive Course",
-    url: "https://frontcast.ir/product/nextjs/",
-  },
-  {
-    id: 4,
-    name: "Bootstap Course",
-    url: "https://www.youtube.com/watch?v=NT12teUwfck",
   },
 ];

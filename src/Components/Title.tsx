@@ -1,12 +1,18 @@
-type TitleProps = {
-  title: string;
-  align: string;
-};
+import type { ComponentPropsWithoutRef, ReactNode } from "react";
 
-function Title({ title,align }: TitleProps) {
+type TitleProps = {
+  title?: string;
+  children?: ReactNode;
+} & ComponentPropsWithoutRef<"h3">;
+
+function Title({ title, children, ...props }: TitleProps) {
   return (
-    <h3 className={`${align} text-2xl text-black/80 font-bold text-center capitalize`}>
-      {title}
+    <h3
+      className="text-2xl text-black/80 font-bold text-center capitalize"
+      {...props}
+    >
+      <span>{title}</span>
+      {children}
     </h3>
   );
 }

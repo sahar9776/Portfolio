@@ -1,13 +1,14 @@
-import Skills from "../Components/Skills";
+// import Skills from "../Components/Skills";
 import Introduction from "../Components/Introduction";
-import Projects from "../Components/Projects";
+// import Projects from "../Components/Projects";
 
 function Portfolio() {
   return (
     <div className="pb-80">
+
       <Introduction />
-      <Skills />
-      <Projects />
+      {/* <Skills />
+      <Projects /> */}
     </div>
   );
 }

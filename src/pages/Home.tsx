@@ -21,7 +21,7 @@ function Home() {
   return (
     <div
       className="max-w-screen w-full min-h-[545px] h-[545px]
-     flex justify-center bg-gradient "
+     flex justify-center bg-white lg:bg-gradient-to-r lg:from-white lg:from-60% lg:to-[#ffc102] lg:to-40% "
     >
       <div className="container px-5 md:px-0 mx-auto flex">
         <div className="w-full lg:w-[60%] h-full">
