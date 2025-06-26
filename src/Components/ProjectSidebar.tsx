@@ -1,6 +1,6 @@
 import type { TProjectItem } from "../assets/types/types";
-import { IoClose } from "react-icons/io5";
 import Title from "./Title";
+import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { IoLibrarySharp } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io5";
@@ -70,7 +70,7 @@ function ProjectSidebar({
             </Title>
 
             <button onClick={handleClose}>
-              <IoClose className="text-black/75 group-hover:text-slate-900" />
+              <IoClose className="text-black/50" />
             </button>
           </div>
 

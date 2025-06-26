@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import About from "../Components/About";
 
 function Home() {
-  const parentVariants = {
+   const parentVariants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,

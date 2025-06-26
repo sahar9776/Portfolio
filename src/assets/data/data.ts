@@ -3,70 +3,64 @@ import type {
   TSkillItem,
   TContactItem,
   TNavbarItem,
+  TEducationItem,
 } from "../types/types";
 
 export const navbarList: TNavbarItem[] = [
   {
     id: 1,
     title: "view Portfolio",
-    url:'/portfolio'
+    url: "/portfolio",
   },
   {
     id: 2,
     title: "view Resume",
-    url:'/my-resume'
+    url: "/my-resume",
   },
 ];
 
 export const projectList: TProjectItem[] = [
   {
     id: 1,
-    name: "beauty shop",
+    name: "Beauty Shop",
     url: "https://github.com/sahar9776/BEAUTY-SHOP",
     imageUrl: "/images/beauty.jpg",
-    libraries:"React, Bootstrap",
+    libraries: "React, Bootstrap",
   },
   {
     id: 2,
-    name: "car fans",
-    url: "https://github.com/sahar9776/Car-Fans",
-    imageUrl: "/images/car.jpg",
-    libraries:"Next, Tailwind"
+    name: "Portfolio",
+    url: "https://github.com/sahar9776/Portfolio",
+    imageUrl: "/images/portfolio.jpg",
+    libraries: "React, Tailwind",
   },
   {
     id: 3,
-    name: "different shop",
-    url: "https://github.com/sahar9776/DIFFERENT-SHOP",
-    imageUrl: "/images/different.jpg",
-    libraries:"React, Tailwind"
+    name: "Car Fans",
+    url: "https://github.com/sahar9776/Car-Fans",
+    imageUrl: "/images/car.jpg",
+    libraries: "Next, Tailwind",
   },
   {
     id: 4,
-    name: "netflix ",
+    name: "Netflix ",
     url: "https://github.com/sahar9776/Netflix",
     imageUrl: "/images/netflix.jpg",
-    libraries:"Tailwind"
+    libraries: "Tailwind",
   },
   {
     id: 5,
-    name: "learn english",
+    name: "Learn English",
     url: "https://github.com/sahar9776/LEARN-ENGLISH",
     imageUrl: "/images/learn-english.jpg",
-    libraries:"React, Tailwind"
+    libraries: "React, Tailwind",
   },
   {
     id: 6,
-    name: "coffee shop ",
+    name: "Coffee Shop ",
     url: "https://github.com/sahar9776/Coffee-Shop",
     imageUrl: "/images/coffee.jpg",
-    libraries:"Next, Tailwind"
-  },
-  {
-    id: 7,
-    name: "Portfolio",
-    url: "https://github.com/sahar9776/Portfolio",
-    imageUrl: "/images/sahar-samadi-resume-image.jpg",
-    libraries:"React, Tailwind"
+    libraries: "Next, Tailwind",
   },
 ];
 
@@ -107,16 +101,34 @@ export const contactList: TContactItem[] = [
   {
     id: 1,
     info: "+989910733897",
-    abbreviation: "T",
+    name: "Telephone",
   },
   {
     id: 2,
     info: "sahar.samadi1376@gmail.com",
-    abbreviation: "E",
+    name: "E-mail",
   },
   {
     id: 3,
     info: "https://github.com/sahar9776",
-    abbreviation: "G",
+    name: "Github",
+  },
+];
+
+export const educationList:TEducationItem[] = [
+  {
+    id: 1,
+    year: 2022,
+    educationsName: "Html Css, Javascript",
+  },
+  {
+    id: 2,
+    year: 2023,
+    educationsName: "React, Bootstrap, Tailwind",
+  },
+  {
+    id: 3,
+    year: 2024,
+    educationsName: "Typescript, Next",
   },
 ];

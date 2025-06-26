@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: Bidenatrial;
+  src: url("/fonts/Bidenatrial.ttf");
+}
+
 * {
   /* padding-inline: 0;
   margin-inline: 0; */
@@ -11,7 +16,12 @@ body {
 button {
   cursor: pointer;
 }
-
+.custom-font {
+  font-family: Bidenatrial !important;
+}
+.custom-shadow{
+  box-shadow:  0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.5)) !important;
+}
 @layer base {
   .bg-gradient {
     background: #ffffff;
@@ -34,10 +44,10 @@ button {
     stroke-linecap: round;
     stroke-linejoin: round;
   }
-  #header-bar{
-    display:none !important;
+  #header-bar {
+    display: none !important;
   }
-  #pdf-controls{
-    display:none !important;
+  #pdf-controls {
+    display: none !important;
   }
 }

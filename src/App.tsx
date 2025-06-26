@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Header from "./Components/Header";
+import DownloadResume from "./Components/DownloadResume";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/my-resume" element={<Resume />} />
       </Routes>
+      <DownloadResume/>
     </>
   );
 }

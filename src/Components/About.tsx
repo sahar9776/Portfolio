@@ -5,7 +5,7 @@ import ContactSidebar from "./ContactSidebar";
 
 function About() {
   const resumeURL = "/files/sahar-samadi.pdf";
-  const [isOpenContact, setIsOpenContact] = useState<boolean>(true);
+  const [isOpenContact, setIsOpenContact] = useState<boolean>(false);
 
   const handleContact=()=>{
     setIsOpenContact(!isOpenContact)
@@ -52,8 +52,8 @@ function About() {
         </button>
       </div>
 
-      <div className="">
-        <ContactSidebar isOpen={isOpenContact} />
+      <div>
+        <ContactSidebar isOpen={isOpenContact} handleClose={handleContact} />
       </div>
     </div>
   );

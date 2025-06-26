@@ -1,4 +1,3 @@
-
 export type TProjectItem = {
   id: number;
   imageUrl: string;
@@ -16,11 +15,17 @@ export type TSkillItem = {
 export type TContactItem = {
   id: number;
   info: string;
-  abbreviation: string;
+  name: string;
 };
 
 export type TNavbarItem = {
   id: number;
   title: string;
   url: string;
+};
+
+export type TEducationItem = {
+  id: number;
+  year: number;
+  educationsName: string;
 };
