@@ -60,9 +60,8 @@ function MoreInfo() {
               <Title title="More Information About Me" />
             </div>
 
-            <div className="mt-5 px-1 text-black/70 text-start max-w-xl flex flex-col gap-1">
+            <div className="mt-5 px-1 text-black/70 text-start max-w-xl">
               <p className="text-2xl font-semibold">Sahar Samadi</p>
-              <p className="">Single</p>
               <p className="">Kermanshah, Iran</p>
             </div>
           </div>
