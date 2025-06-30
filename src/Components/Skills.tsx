@@ -14,9 +14,9 @@ function Skills() {
           <Title title="Skills" />
         </div>
 
-        <div className="w-full h-auto mx-auto flex juctify-between flex-wrap gap-10 mt-10">
+        <div className="w-full h-auto mx-auto flex justify-center lg:juctify-between flex-wrap gap-10 mt-10">
           {mySkills.map((item) => (
-            <div key={item.id} className="w-auto lg:w-[30%] h-24">
+            <div key={item.id} className="w-auto max-w-[43%] lg:w-[30%] h-24">
               <SkillItem {...item} />
             </div>
           ))}

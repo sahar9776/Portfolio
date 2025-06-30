@@ -106,7 +106,7 @@ export const contactList: TContactItem[] = [
   {
     id: 2,
     info: "sahar.samadi1376@gmail.com",
-    name: "E-mail",
+    name: "Email",
   },
   {
     id: 3,

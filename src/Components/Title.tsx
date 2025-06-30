@@ -8,7 +8,7 @@ type TitleProps = {
 function Title({ title, children, ...props }: TitleProps) {
   return (
     <h3
-      className="text-4xl text-black/80 font-bold text-center capitalize"
+      className="text-2xl lg:text-4xl text-black/80 font-bold text-center capitalize"
       {...props}
     >
       <span>{title}</span>

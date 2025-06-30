@@ -6,7 +6,7 @@ import { MdCastForEducation } from "react-icons/md";
 function Education() {
   return (
     <>
-      <div className="flex items-center justify-start gap-1">
+      <div className="flex items-center lg:justify-start gap-1">
         <span className="text-4xl text-black">
           <MdCastForEducation />
         </span>
@@ -22,7 +22,7 @@ function Education() {
                 <h4 className="text-2xl font-bold">{item.year}</h4>
               </div>
 
-              <Title className="text-xl text-black/60">
+              <Title className="lg:text-xl text-black/60">
                 {item.educationsName}
               </Title>
             </div>

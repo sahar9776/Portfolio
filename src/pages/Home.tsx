@@ -10,7 +10,7 @@ export const parentVariants = {
     opacity: 1,
     transition: {
       type: "spring",
-      staggerChildren: 1,
+      staggerChildren: 0.8,
     },
   },
 };
