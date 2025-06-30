@@ -20,7 +20,7 @@ function About() {
         Web <span className="text-[#ffc102]">Developer.</span>
       </h1>
 
-      <p className="text-black/50 text-start max-w-xl my-2">
+      <p className="text-black/50 text-start w-full lg:max-w-xl my-2">
         My name is Sahar Samadi. I am a web developer who has been trained for
         three years. I started my work with WordPress and then for some parts I
         needed to use HTML CSS so I learned HTML CSS, but everything was so

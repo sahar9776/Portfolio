@@ -24,7 +24,9 @@ function MoreInfo() {
                 <div key={item.id} className="flex items-center gap-10 mt-5">
                   <div className="flex items-center gap-2">
                     <PiStarFourFill className="text-primary text-2xl" />
-                    <h4 className="text-2xl font-bold text-black/80">{item.name}</h4>
+                    <h4 className="text-2xl font-bold text-black/80">
+                      {item.name}
+                    </h4>
                   </div>
 
                   <Title className="text-xl text-black/60">{item.info}</Title>
@@ -39,18 +41,19 @@ function MoreInfo() {
         </div>
 
         <div className="w-1/2 h-full py-10">
-            <div className="flex items-center justify-start gap-1">
-              <span className="text-4xl text-black/80">
-                <MdLanguage />
-              </span>
-              <Title title="Language" />
-            </div>
+          <div className="flex items-center justify-start gap-1">
+            <span className="text-4xl text-black/80">
+              <MdLanguage />
+            </span>
+            <Title title="Language" />
+          </div>
 
-            <div className="px-2 py-3">
-              <h4 className="font-semibold text-2xl">
-                English : <span className="text-lg text-black/70">Intermediate</span>
-              </h4>
-            </div>
+          <div className="px-2 py-3">
+            <h4 className="font-semibold text-2xl text-black/80">
+              English :
+              <span className="text-lg text-black/70">Intermediate</span>
+            </h4>
+          </div>
 
           <div className="mt-10">
             <div className="flex items-center justify-start gap-1">
@@ -60,9 +63,9 @@ function MoreInfo() {
               <Title title="More Information About Me" />
             </div>
 
-            <div className="mt-5 px-1 text-black/70 text-start max-w-xl">
-              <p className="text-2xl font-semibold">Sahar Samadi</p>
-              <p className="">Kermanshah, Iran</p>
+            <div className="px-2 py-3">
+              <h4 className="font-semibold text-2xl text-black/80">Sahar Samadi</h4>
+              <p className="text-lg text-black/70">Kermanshah, Iran</p>
             </div>
           </div>
         </div>
