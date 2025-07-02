@@ -52,10 +52,10 @@ function Introduction() {
         <div className="w-full lg:w-auto absolute lg:right-24 top-96 px-5 py-48 lg:p-0 text-start">
           <Title
             title="Front-end Web Developer"
-            className="text-xl lg:text-4xl font-bold text-white "
+            className="text-xl lg:text-4xl font-bold text-white mt-2 lg:mt-0"
           />
 
-          <p className="text-sm lg:text-lg text-white/80 w-full max-w-full lg:max-w-xl my-2 lg:my-5">
+          <p className="text-sm lg:text-lg text-white/80 w-full max-w-full lg:max-w-xl my-1 lg:my-5">
             My Name is Sahar Samadi . I am a front-end web developer who has
             been trained for three years and worked on various projects. I
             started my work with WordPress and then for some parts I needed to
