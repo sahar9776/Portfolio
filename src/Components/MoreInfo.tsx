@@ -73,7 +73,7 @@ function MoreInfo() {
               <h4 className="font-semibold text-xl lg:text-2xl text-black/80">
                 Sahar Samadi
               </h4>
-              <p className="lg:text-lg text-black/70">Kermanshah, Iran</p>
+              <p className="lg:text-lg text-black/70 mt-2">Tehran, Iran</p>
             </div>
           </div>
         </div>
