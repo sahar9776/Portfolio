@@ -15,7 +15,7 @@ function Education() {
 
       <>
         {educationList.map((item) => (
-          <div className="flex flex-col gap-y-4 justify-start items-start">
+          <div key={item.id} className="flex flex-col gap-y-4 justify-start items-start">
             <div key={item.id} className="flex items-center gap-10 mt-5">
               <div className="flex items-center gap-2">
                 <PiStarFourFill className="text-white text-2xl" />
