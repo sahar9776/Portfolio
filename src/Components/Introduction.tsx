@@ -26,8 +26,8 @@ function Introduction() {
           }}
           src="/images/miss.jpg"
           alt=""
-          className="w-full lg:w-96 h-auto absolute bottom-44 left-[50%] -translate-x-[50%]
-           lg:bottom-10 lg:left-40 lg:translate-x-0 lg:rounded-sm"
+          className="max-w-full lg:w-96 h-auto absolute bottom-44 left-[50%] -translate-x-[50%]
+           lg:bottom-8 lg:left-40 lg:translate-x-0 lg:rounded-sm"
         />
 
         <motion.div
