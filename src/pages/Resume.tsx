@@ -1,6 +1,5 @@
 import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
 import "@cyntler/react-doc-viewer/dist/index.css";
-import { PiDownloadSimpleFill } from "react-icons/pi";
 
 function Resume() {
   const docs = [
@@ -11,8 +10,6 @@ function Resume() {
     },
   ];
 
-  const resumeURL = "/files/sahar-samadi.pdf";
-  
   return (
     <div className="w-full">
       <div className="container">
