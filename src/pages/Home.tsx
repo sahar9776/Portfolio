@@ -48,7 +48,7 @@ function Home() {
           <>
             <motion.div
               variants={childVariants}
-              className="w-16 h-16 rounded-full absolute top-3 right-3
+              className="w-16 h-16 rounded-full absolute top-3 right-5
              shadow-md shadow-black/50 flex justify-center items-center"
             >
               <FaReact className="text-4xl" />
