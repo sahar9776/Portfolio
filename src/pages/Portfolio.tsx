@@ -5,7 +5,7 @@ import MoreInfo from "../Components/MoreInfo";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Introduction />
       <Skills />
       <Projects />

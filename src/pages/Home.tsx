@@ -23,7 +23,7 @@ export const childVariants = {
 function Home() {
   return (
     <div
-      className="max-w-screen w-full min-h-[545px] h-[545px]
+      className="max-w-screen w-full min-h-[545px] h-[545px] overflow-x-hidden
      flex justify-center bg-white lg:bg-gradient-to-r lg:from-white lg:from-60% lg:to-[#ffc102] lg:to-40% "
     >
       <div className="container px-5 md:px-0 mx-auto lg:flex">
@@ -41,14 +41,14 @@ function Home() {
           <motion.img
             src="/images/employmentThree.png"
             alt="employmentThree"
-            className="min-w-[520px] h-auto absolute -top-6 left-[50%] -translate-x-[50%] drop-shadow-xl drop-shadow-black/70"
+            className="min-w-[520px] h-auto absolute -top-4 left-[50%] -translate-x-[50%] drop-shadow-xl drop-shadow-black/70"
             variants={childVariants}
           />
 
           <>
             <motion.div
               variants={childVariants}
-              className="w-16 h-16 rounded-full absolute top-3 right-1.5
+              className="w-16 h-16 rounded-full absolute top-3 right-3
              shadow-md shadow-black/50 flex justify-center items-center"
             >
               <FaReact className="text-4xl" />

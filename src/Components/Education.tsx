@@ -6,7 +6,7 @@ import { MdCastForEducation } from "react-icons/md";
 function Education() {
   return (
     <>
-      <div className="flex items-center lg:justify-start gap-1">
+      <div className="flex items-center lg:justify-start gap-1 overflow-x-hidden">
         <span className="text-4xl text-black">
           <MdCastForEducation />
         </span>
