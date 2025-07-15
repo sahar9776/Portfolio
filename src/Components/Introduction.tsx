@@ -35,13 +35,13 @@ function Introduction() {
           initial="hidden"
           animate="show"
           className="w-[400px] h-auto text-center flex flex-col justify-end ps-20 z-50
-         absolute top-3 left-5 lg:top-14 lg:left-48 border-4 border-r-0 border-white py-4 lg:py-0"
+         absolute top-2 left-5 lg:top-14 lg:left-48 border-4 border-r-0 border-white py-4 lg:py-0"
         >
           {myName.map((item, index) => (
             <motion.h2
               key={index}
               variants={childVariants}
-              className="font-extrabold uppercase text-[106px] lg:text-9xl
+              className="font-extrabold uppercase text-[100px] lg:text-9xl
              text-white lg:text-black/80 ms-5 lg:ms-[220px]"
             >
               {item}
