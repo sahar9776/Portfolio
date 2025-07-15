@@ -9,8 +9,8 @@ function XsNavabr() {
   const navigate = useNavigate();
 
   const handleNavigate = (url: string) => {
-    navigate(url);
     setIsOpen(false);
+    navigate(url);
   };
 
   return (
