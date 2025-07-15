@@ -14,7 +14,7 @@ function Introduction() {
   };
 
   return (
-    <div className="w-full h-[760px] flex items-end relative">
+    <div className="w-full h-[760px] flex items-end relative mt-10 lg:mt-0">
       <div className="container h-[520px] lg:h-[420px] bg-primary lg:rounded-xl mx-auto ">
         <motion.img
           initial={{ y: "-1000px" }}
