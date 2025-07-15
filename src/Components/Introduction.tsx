@@ -14,8 +14,8 @@ function Introduction() {
   };
 
   return (
-    <div className="w-full h-[760px] flex items-end relative ">
-      <div className="container h-[528px] lg:h-[420px] bg-primary lg:rounded-xl mx-auto ">
+    <div className="w-full h-[760px] flex items-end relative">
+      <div className="container h-[520px] lg:h-[420px] bg-primary lg:rounded-xl mx-auto ">
         <motion.img
           initial={{ y: "-1000px" }}
           animate={{ y: 0 }}
@@ -26,7 +26,7 @@ function Introduction() {
           }}
           src="/images/miss.jpg"
           alt=""
-          className="max-w-full lg:w-96 min-h-full absolute bottom-[174px] left-[50%] -translate-x-[50%]
+          className="max-w-full lg:w-96 h-auto absolute bottom-[170px] left-[50%] -translate-x-[50%]
            lg:bottom-10 lg:left-40 lg:translate-x-0 lg:rounded-sm"
         />
 
@@ -34,7 +34,7 @@ function Introduction() {
           variants={parentVariants}
           initial="hidden"
           animate="show"
-          className="w-[400px] min-h-full lg:h-auto text-center flex flex-col justify-end ps-20 z-50
+          className="w-[400px] h-auto text-center flex flex-col justify-end ps-20 z-50
          absolute top-5 left-5 lg:top-14 lg:left-48 border-4 border-r-0 border-white py-4 lg:py-0"
         >
           {myName.map((item, index) => (
@@ -49,7 +49,7 @@ function Introduction() {
           ))}
         </motion.div>
 
-        <div className="w-full lg:w-auto absolute lg:right-24 top-[400px] lg:top-96 px-5 lg:p-0 text-start">
+        <div className="w-full lg:w-auto absolute lg:right-24 top-96 px-5 py-48 lg:p-0 text-start">
           <Title
             title="Front-end Web Developer"
             className="text-xl lg:text-4xl font-bold text-white mt-2 lg:mt-0"
