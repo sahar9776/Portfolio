@@ -26,7 +26,7 @@ function Introduction() {
           }}
           src="/images/miss.jpg"
           alt=""
-          className="max-w-full lg:w-96 h-full absolute bottom-[174px] left-[50%] -translate-x-[50%]
+          className="max-w-full lg:w-96 min-h-full absolute bottom-[174px] left-[50%] -translate-x-[50%]
            lg:bottom-10 lg:left-40 lg:translate-x-0 lg:rounded-sm"
         />
 
@@ -34,7 +34,7 @@ function Introduction() {
           variants={parentVariants}
           initial="hidden"
           animate="show"
-          className="w-[400px] h-auto text-center flex flex-col justify-end ps-20 z-50
+          className="w-[400px] min-h-full lg:h-auto text-center flex flex-col justify-end ps-20 z-50
          absolute top-5 left-5 lg:top-14 lg:left-48 border-4 border-r-0 border-white py-4 lg:py-0"
         >
           {myName.map((item, index) => (
