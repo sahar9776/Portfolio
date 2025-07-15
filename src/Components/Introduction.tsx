@@ -14,8 +14,8 @@ function Introduction() {
   };
 
   return (
-    <div className="w-full h-auto lg:h-[760px] flex items-end relative">
-      <div className="container h-[520px] lg:h-[420px] bg-primary lg:rounded-xl mx-auto ">
+    <div className="w-full h-[760px] flex items-end relative ">
+      <div className="container h-[528px] lg:h-[420px] bg-primary lg:rounded-xl mx-auto ">
         <motion.img
           initial={{ y: "-1000px" }}
           animate={{ y: 0 }}
@@ -42,14 +42,14 @@ function Introduction() {
               key={index}
               variants={childVariants}
               className="font-extrabold uppercase text-8xl lg:text-9xl
-             text-white lg:text-black/80 ms-6 lg:ms-[220px]"
+             text-white lg:text-black/80 ms-8 lg:ms-[220px]"
             >
               {item}
             </motion.h2>
           ))}
         </motion.div>
 
-        <div className="w-full lg:w-auto absolute lg:right-24 top-96 px-5  lg:p-0 text-start">
+        <div className="w-full lg:w-auto absolute lg:right-24 top-96 px-5 lg:p-0 text-start">
           <Title
             title="Front-end Web Developer"
             className="text-xl lg:text-4xl font-bold text-white mt-2 lg:mt-0"
