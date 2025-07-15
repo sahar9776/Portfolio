@@ -15,7 +15,7 @@ function XsNavabr() {
 
   return (
     <>
-      <div className="w-full h-full bg-red-500 flex items-center justify-center">
+      <div className="w-full h-full bg-white flex items-center justify-center">
         <div className="container mx-auto px-5 md:px-0 flex items-center justify-between">
           <Logo />
 
