@@ -49,7 +49,7 @@ function Introduction() {
           ))}
         </motion.div>
 
-        <div className="w-full lg:w-auto absolute lg:right-24 top-[440px] lg:top-96 px-5 py-48 lg:p-0 text-start">
+        <div className="w-full lg:w-auto absolute lg:right-24 top-[420px] lg:top-96 px-5 py-48 lg:p-0 text-start">
           <Title
             title="Front-end Web Developer"
             className="text-xl lg:text-4xl font-bold text-white mt-2 lg:mt-0"
