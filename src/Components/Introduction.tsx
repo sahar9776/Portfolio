@@ -14,7 +14,7 @@ function Introduction() {
   };
 
   return (
-    <div className="w-full h-[760px] flex items-end relative mt-7 lg:mt-0">
+    <div className="w-full h-[760px] flex items-end relative">
       <div className="container h-[520px] lg:h-[420px] bg-primary lg:rounded-xl mx-auto ">
         <motion.img
           initial={{ y: "-1000px" }}
@@ -42,7 +42,7 @@ function Introduction() {
               key={index}
               variants={childVariants}
               className="font-extrabold uppercase text-8xl lg:text-9xl
-             text-white lg:text-black/80 ms-24 lg:ms-[220px]"
+             text-white lg:text-black/80 ms-5 lg:ms-[220px]"
             >
               {item}
             </motion.h2>
