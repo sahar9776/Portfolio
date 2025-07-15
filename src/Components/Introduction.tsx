@@ -41,7 +41,7 @@ function Introduction() {
             <motion.h2
               key={index}
               variants={childVariants}
-              className="font-extrabold uppercase text-9xl lg:text-9xl
+              className="font-extrabold uppercase text-[112px] lg:text-9xl
              text-white lg:text-black/80 ms-5 lg:ms-[220px]"
             >
               {item}
