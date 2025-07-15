@@ -35,13 +35,13 @@ function Introduction() {
           initial="hidden"
           animate="show"
           className="w-[400px] h-auto text-center flex flex-col justify-end ps-20 z-50
-         absolute top-3 left-5 lg:top-14 lg:left-48 border-4 border-r-0 border-white py-4 lg:py-0"
+         absolute top-2 left-5 lg:top-14 lg:left-48 border-4 border-r-0 border-white py-4 lg:py-0"
         >
           {myName.map((item, index) => (
             <motion.h2
               key={index}
               variants={childVariants}
-              className="font-extrabold uppercase text-8xl lg:text-9xl
+              className="font-extrabold uppercase text-[100px] lg:text-9xl
              text-white lg:text-black/80 ms-5 lg:ms-[220px]"
             >
               {item}
@@ -49,7 +49,7 @@ function Introduction() {
           ))}
         </motion.div>
 
-        <div className="w-full lg:w-auto absolute lg:right-24 top-96 px-5 py-48 lg:p-0 text-start">
+        <div className="w-full lg:w-auto absolute lg:right-24 top-[390px] lg:top-96 px-5 py-48 lg:p-0 text-start">
           <Title
             title="Front-end Web Developer"
             className="text-xl lg:text-4xl font-bold text-white mt-2 lg:mt-0"
