@@ -26,7 +26,7 @@ function Introduction() {
           }}
           src="/images/miss.jpg"
           alt=""
-          className="max-w-full lg:w-96 h-auto absolute bottom-[170px] left-[50%] -translate-x-[50%]
+          className="max-w-full lg:w-96 h-auto absolute bottom-[174px] left-[50%] -translate-x-[50%]
            lg:bottom-10 lg:left-40 lg:translate-x-0 lg:rounded-sm"
         />
 
@@ -49,7 +49,7 @@ function Introduction() {
           ))}
         </motion.div>
 
-        <div className="w-full lg:w-auto absolute lg:right-24 top-96 px-5 py-48 lg:p-0 text-start">
+        <div className="w-full lg:w-auto absolute lg:right-24 top-96 px-5 py-[196px] lg:p-0 text-start">
           <Title
             title="Front-end Web Developer"
             className="text-xl lg:text-4xl font-bold text-white mt-2 lg:mt-0"
