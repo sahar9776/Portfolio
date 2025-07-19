@@ -28,7 +28,7 @@ function XsNavabr() {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } max-w-screen h-auto fixed top-24 left-0 right-0 z-50 
+        } max-w-screen h-auto fixed top-24 left-0 right-0 z-[100] 
          rounnded-lg shadow flex flex-col justify-between bg-white`}
       >
         {navbarList.map((item) => (
