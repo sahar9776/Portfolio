@@ -9,8 +9,9 @@ function XsNavabr() {
   const navigate = useNavigate();
 
   const handleNavigate = (url: string) => {
-    setIsOpen(false);
     navigate(url);
+    setIsOpen(false);
+    console.log(url)
   };
 
   return (
@@ -34,7 +35,6 @@ function XsNavabr() {
         {navbarList.map((item) => (
           <button
             key={item.id}
-            // to={item.url}
             onClick={() => handleNavigate(item.url)}
             className="w-full h-20 flex justify-center items-center text-2xl
              font-semibold text-black/80 text-center py-10 capitalize
