@@ -11,7 +11,6 @@ function XsNavabr() {
   const handleNavigate = (url: string) => {
     navigate(url);
     setIsOpen(false);
-    console.log(url)
   };
 
   return (
