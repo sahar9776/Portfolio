@@ -1,4 +1,4 @@
-# Sahar Dark Portfolio Template
+# Sahar Portfolio Template
 
 A clean, minimal, and fully responsive developer portfolio template built with **React.js**, **TypeScript**, and **Tailwind CSS** — perfect for showcasing your skills, projects, and experience.
 
