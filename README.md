@@ -1,21 +1,29 @@
-# React + TypeScript + Vite
+# Sahar Dark Portfolio Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, minimal, and fully responsive developer portfolio template built with **React.js**, **TypeScript**, and **Tailwind CSS** — perfect for showcasing your skills, projects, and experience.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Built with **React + TypeScript**
+- 🎨 Modern dark theme
+- 📱 Fully responsive on all devices
+- 🧠 Skill & project showcase
+- 📩 Functional contact form
+- ⚙️ Customizable settings panel
+- 🌐 SEO-friendly and fast
 
-## Expanding the ESLint configuration
+## 📸 Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔗 [Live Preview](https://portfolio-rho-rouge-73.vercel.app/)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
+## 🛠 Tech Stack
+
+- React
+- TypeScript
+- Tailwind CSS
+- EmailJS (for contact form)
+
+## 📦 Folder Structure    ...tseslint.configs.recommendedTypeChecked,
     // Alternatively, use this for stricter rules
     ...tseslint.configs.strictTypeChecked,
     // Optionally, add this for stylistic rules
