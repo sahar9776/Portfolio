@@ -1,4 +1,3 @@
-
 import { PiDownloadSimpleFill } from "react-icons/pi";
 import { useState } from "react";
 import ContactSidebar from "./ContactSidebar";
@@ -7,9 +6,9 @@ function About() {
   const resumeURL = "/files/sahar-samadi.pdf";
   const [isOpenContact, setIsOpenContact] = useState<boolean>(false);
 
-  const handleContact=()=>{
-    setIsOpenContact(!isOpenContact)
-  }
+  const handleContact = () => {
+    setIsOpenContact(!isOpenContact);
+  };
 
   return (
     <div className="w-full h-full py-10 ">
@@ -19,6 +18,13 @@ function About() {
       <h1 className="text-black/90 text-5xl lg:text-6xl font-semibold my-5 capitalize">
         Web <span className="text-[#ffc102]">Developer.</span>
       </h1>
+
+      <h2
+        className="w-full lg:max-w-xl text-black/75 text-xl lg:text-2xl 
+      font-semibold my-5 capitalize"
+      >
+        Interested in combining precision and elegance!
+      </h2>
 
       <p className="text-black/50 text-start w-full lg:max-w-xl my-2">
         My name is Sahar Samadi. I am a web developer who has been trained for
@@ -43,7 +49,7 @@ function About() {
           </a>
         </button>
         <button
-        onClick={handleContact}
+          onClick={handleContact}
           className="bg-primary text-white border border-[#ffc102] 
           duration-500 ease-linear hover:shadow-lg
            font-semibold py-2 px-4 lg:px-6 rounded-full"
